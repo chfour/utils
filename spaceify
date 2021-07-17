@@ -1,0 +1,2 @@
+#!/usr/bin/python3
+import fileinput,sys;SPACES=1;sys.stdout.write("\n".join([("  "*SPACES).join([(" "*SPACES).join(list(word))for word in line.split(" ")])for line in fileinput.input()]))

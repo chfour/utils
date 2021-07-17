@@ -1,0 +1,6 @@
+# as root:
+# [update system, eg. apt update && apt upgrade for debian]
+useradd -m ch4
+usermod -a -G sudo ch4
+passwd ch4
+chsh -s /bin/bash ch4
